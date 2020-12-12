@@ -19,7 +19,7 @@ public:
         this->taste = taste;
     }
     
-    friend ostream& operator<< (ostream &out, const Fruit &f){
+    friend ostream& operator<< (ostream &out, const fruit &f){
         out << "скуштуй цей соковитий салат" << f.name << f.size << "розміру" << " та зі смаком" << f.taste <<"і дуже яскравим" << f.color << "кольором" << endl;
         return out;
     }
